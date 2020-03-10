@@ -17,6 +17,11 @@ public static void main(String[]arg){
 	String Var3= "Hola mundo 3";
 	
 	System.out.println(Var3);
+	
+	String Var4= "Hola mundo 4";
+	
+	System.out.println(Var4);
+	
 }
 	
 }
