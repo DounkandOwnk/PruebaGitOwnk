@@ -12,6 +12,4 @@ public class Clase_Hija1 extends Clase_Padre{
 		this.nombrehija = nombrehija;
 	}
 	
-	
-	
 }

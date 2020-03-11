@@ -27,5 +27,4 @@ public class Clase_Padre {
 		this.edad = edad;
 	}
 	
-	
 }
