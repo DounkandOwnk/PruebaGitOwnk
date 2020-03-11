@@ -1,11 +1,11 @@
 package Interface;
 
-public class Main {
+public class Main implements PDF{
 
-	public static void main(String[] args) {
+	@Override
+	public void name() {
+		// TODO Auto-generated method stub
 		
-		 
-
 	}
 
 }

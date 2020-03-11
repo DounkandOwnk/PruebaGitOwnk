@@ -1,4 +1,4 @@
-package Clase_Abstracta;
+package org.ownk.abstrac;
 
 public abstract class Profesor {
 
