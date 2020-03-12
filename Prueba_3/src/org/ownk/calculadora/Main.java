@@ -60,7 +60,7 @@ public class Main {
 		}else if (operar ==1 && resultado!=0) {
 			
 			resultado=formulas.seguiroperando(operar, resultado);
-			
+		
 		}else if(operar == 2 && resultado !=0) {
 			
 			resultado=formulas.seguiroperando(operar, resultado);
