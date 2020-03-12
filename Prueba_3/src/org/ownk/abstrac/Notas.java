@@ -1,6 +1,6 @@
 package org.ownk.abstrac;
 
-public abstract class Notas {
+public abstract class Notas extends Abstracta {
 
 	private double nota;
 	private String pasoAño;

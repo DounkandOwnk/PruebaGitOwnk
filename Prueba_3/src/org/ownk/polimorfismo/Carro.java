@@ -1,12 +1,29 @@
 package org.ownk.polimorfismo;
 
-public class Carro extends Vehiculo {
-
-	@Override
-	public void Arranca() {
-		
-		System.out.println("Estoy arrancando mas lento P A N A");
+public class Carro implements IVehiculo, Itransporte {
+	
+	public Carro () {
 		
 	}
+
+	@Override
+	public void arrancar() {
+		System.out.println("Arranque de carro");
+		
+	}
+
+	@Override
+	public void frenar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void pintar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 	
 }

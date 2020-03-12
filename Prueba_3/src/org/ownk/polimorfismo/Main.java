@@ -4,11 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Vehiculo ejemplo = new Vehiculo();
-		Carro ejemplo2 = new Carro();
+		IVehiculo carro  = new Carro();
+		IVehiculo camioneta = new Camioneta();
 		
-		ejemplo.Arranca();
-		ejemplo2.Arranca();
+		carro.arrancar();
+		camioneta.arrancar();
 		
 
 	}

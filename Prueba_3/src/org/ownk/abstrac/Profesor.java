@@ -19,6 +19,7 @@ public abstract class Profesor {
 		this.cc = cc;
 	}
 	public String getMateriaDictada() {
+		
 		return materiaDictada;
 	}
 	public void setMateriaDictada(String materiaDictada) {

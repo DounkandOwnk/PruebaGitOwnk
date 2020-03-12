@@ -3,6 +3,8 @@ package org.ownk.singleton;
 public class SoyUnico {
 
     private String nombre;
+    
+    
     private static SoyUnico soyUnico;
 
     // El constructor es privado, no permite que se genere un constructor por defecto.
@@ -21,6 +23,12 @@ public class SoyUnico {
         
         return soyUnico;
     }
+
+	public String getNombre() {
+		return nombre;
+	}
+    
+    
     
     // metodos getter y setter
 

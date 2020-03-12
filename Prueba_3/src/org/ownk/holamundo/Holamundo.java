@@ -1,6 +1,6 @@
-package org.ownk.prueba3;
+package org.ownk.holamundo;
 
-public class Prueba_3 {
+public class Holamundo {
 
 	public static void main(String[] arg) {
 
